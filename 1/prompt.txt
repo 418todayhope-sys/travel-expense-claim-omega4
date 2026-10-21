@@ -1,0 +1,297 @@
+Verify that the current working directory is /home/maxg/travel-expense-claim-omega4.
+
+Check git status, confirm acquisition run omega4-live-20261020-attempt002 exists, and confirm the normalization stage has not already been implemented.
+
+Report findings only. Do not edit files, run network requests, commit, or push.
+
+---
+
+Review the existing Omega Attempt 4 normalization implementation without modifying it. Read normalization/README.md and the parsing report for omega4-attempt002-normalization-v1. Run the existing normalization tests and verify the generated records against the retained acquisition manifest and source hashes. Explain why the report says parsed-with-repairs, identify any unresolved parsing errors or missing source links, and check C03/C24, C09, C18, C19, C121, F-C01-1, and TC122-confirmed. Report test counts, verified record counts, weaknesses, and whether normalization is ready for policy validation. Do not regenerate or overwrite evidence, edit files, access the network, commit, or push.
+
+---
+
+Implement Omega Attempt 4 Scope A increment 3: deterministic policy and approval validation using the verified normalized records.
+
+First read the preserved October 20 POL-2026.2 browser copy and provenance, the October 20 stakeholder interview, Decision 001, and the original assignment requirements.
+
+Build reusable per-claim/revision findings for expense eligibility, category caps, dates, FX/rounding, settled merchant-payment evidence, domestic versus international permit requirements, and role-specific review/exception authority.
+
+Evaluate review packets, review outcomes, current-revision freshness, cancellation scope, and evidence invalidation after corrections.
+
+Preserve gross purchase amounts separately from allowed amounts.
+
+Classify findings as supported, blocked, or unresolved with source references and reasons; never invent approvals, permit evidence, Finance resolutions, or missing payment proof.Keep the 18 normalization diagnostics visible, including C18/r2's missing reviews.
+
+Add targeted tests for C03/C24, C09, C18, C19, C121, C08, C114, and review-revision invalidation.
+
+Produce versioned validation findings in a new output directory without overwriting prior evidence.
+
+Do not implement Finance event admission, reimbursement transfers, financial closure, final reports, or commits/pushes.
+
+Run tests and report counts, limitations, and any rules whose policy support remains unclear.
+
+---
+
+Implement Omega Attempt 4 Scope A increment 4: deterministic Finance event admission and reconciliation, using the verified acquisition, normalization, and validation artifacts.
+
+Read Decision 001 and the preserved policy/interview before coding.
+
+Preserve every Finance delivery and original request, deduplicate repeated business events without double counting, and resolve links among claims, expenses, accepted requests, settlements, adjustments, refunds, cancellations, and Finance resolutions.
+
+Calculate gross, policy-allowed, accepted, and net-confirmed-settled amounts separately.
+
+Enforce revision freshness, valid approval evidence, cancellation scope, and Decision 001's hold on corrected claims with unresolved original-request payments.
+
+Treat uncertain attribution or missing Finance evidence as unresolved, not zero or paid.
+
+Include regression tests for C03/C24, C09, C18, C19, C121, F-C01-1, and TC122-confirmed.
+
+Produce a new versioned reconciliation artifact with source references, diagnostics, and explicit unresolved items; do not overwrite previous outputs.
+
+Do not generate final claims.csv, report.md, Skill, or submission artifacts yet.
+
+Run all tests, report exact counts and limitations, and do not commit or push.
+
+---
+
+Implement Omega Attempt 4 Scope A increment 5: reproducible end-to-end snapshots and operator deliverables.
+
+First inspect snapshot.schema.json, the preserved historical assignment requirements, and the existing acquisition, normalization, validation, and reconciliation outputs.
+
+Build an append-only, versioned travel-claim-snapshot/2 batch snapshot chain for batches 1–4, preserving source hashes, prior snapshot links, arrival ordering, decisions, unresolved items, and evidence provenance.
+
+Generate claims.csv, report.md, and an owned repair queue from the final batch, distinguishing supported expense eligibility, review evidence, Finance request-level facts, and actual financial closure.
+
+Do not mark claims paid or closed without sufficient revision/cost attribution, approvals, and Finance evidence.
+
+Create a reusable operator Skill and README instructions for new deliveries, corrections, cancellations, failed source access, replay, and handoff.
+
+Ensure outputs are generated into a new directory and prior artifacts are never overwritten.
+
+Add integration and adversarial tests for C03/C24, C09, C18, C19, C121, duplicate deliveries, missing merchant payments, and stale approvals.
+
+Run the full suite and report output paths, snapshot chain verification, unresolved limitations, and time spent.
+
+Do not commit, push, deploy, or submit.
+
+---
+
+Review the preserved original assignment requirements, Decision 001, October 20 stakeholder interview, current report.md, repair-queue.json, and snapshot-chain manifest. Identify exactly three consequential unresolved workflow decisions suitable for the participant to make, beyond Decision 001. For each, provide the specific source evidence, why it matters, two or three defensible alternatives, the implementation or verification consequences, and what remains unknown. Prioritize decisions that improve the current workflow without inventing stakeholder answers or financial authority. Report findings only. Do not edit files, generate decisions on my behalf, commit, or push.
+
+---
+
+Document my authorized Omega Attempt 4 Decision 002: dependency-based containment.
+
+Create decisions/decision-002-dependency-based-containment.md, preserving Decision 001 unchanged.
+
+Record my selection, supporting assignment/policy/interview evidence with exact local references, alternatives considered (claim-level isolation and whole-batch containment), rationale, restrictions, unknowns, implementation consequences, and measurable acceptance criteria.
+
+The rule is: hold work affected by missing or changed evidence and its proven dependencies; allow unrelated evidence processing and verification to continue.
+
+Do not infer financial authority, waive approvals, or clear existing repair items.
+
+Include C03/C24 shared-cost and C18 original-versus-replacement-trip examples, distinguishing verified links from assumptions.
+
+Review the current implementation for whether this decision is already supported, and report any gaps.
+
+Documentation and read-only assessment only: do not change workflow code, generated artifacts, original interview files, or Decision 001. Do not commit or push.
+
+---
+
+Implement authorized Decision 002 from decisions/decision-002-dependency-based-containment.md.
+
+Add deterministic dependency-based containment to the existing Omega Attempt 4 workflow.
+
+Derive dependency links only from retained evidence, including shared expense identities, exact trip/permit cancellation targets, request links, and genuinely shared evidence requirements.
+
+Propagate holds only along proven relevant dependencies; preserve unresolved global requirements separately rather than treating every global finding as a claim-specific defect.
+
+Distinguish claim financial closure from independently resumable evidence-processing work.
+
+Preserve Decision 001, all existing financial holds, and the rule that no claim may be marked paid or closed without sufficient evidence.Add tests for C03/C24 shared cost, C18 original versus replacement trip, C08/C114 missing merchant proof, correction freshness, and an unrelated claim continuing independent processing.
+
+Generate new versioned output without overwriting prior artifacts.
+
+Run the full test suite, verify the dependency graph and resulting states, and report exact before/after counts and limitations.
+
+Do not change historical decisions, original interview files, commit, or push.
+
+---
+
+Document my authorized Omega Attempt 4 Decision 003: shared blocker plus linked case views.
+
+Create decisions/decision-003-shared-blocker-linked-case-views.md. Preserve Decisions 001 and 002 unchanged.
+
+Record my selected approach, exact assignment/policy/interview and current-artifact evidence, alternatives (claim/revision-first and owner-first), rationale, restrictions, unknowns, implementation consequences, and measurable acceptance criteria.
+
+Shared blockers should have a central identity, owner, evidence references, and linked affected cases. Every claim/revision must retain its own repair requirements and history.
+
+Resolving a shared blocker must never automatically clear case-specific missing approvals, merchant-payment proof, Finance allocation, or financial holds.Review the current containment graph and repair queue for existing support and specific gaps.
+
+Documentation and read-only implementation assessment only; do not edit workflow code, generated artifacts, historical evidence, or earlier decisions. Do not commit or push.
+
+Report findings and file path.
+
+---
+
+Implement authorized Decision 003 using decisions/decision-003-shared-blocker-linked-case-views.md and the existing Decision 002 dependency graph.
+
+Add deterministic shared-blocker records with stable identities, owner, evidence references, linked claim/revision/expense and repair IDs, and batch-by-batch history.
+
+Produce navigable blocker-to-case and case-to-blocker views without overwriting or renumbering existing repair records.
+
+Distinguish a shared blocker being clarified from every linked case independently satisfying its remaining requirements. A shared resolution must never automatically clear missing merchant proof, current approvals, Finance allocation, correction holds, or financial closure.
+
+Keep package-wide requirements separate where applicability remains unknown.Add targeted tests for C03/C24 shared cost, C08/C114 separate merchant-proof defects, C18 original/replacement separation, partial responses, repeated deliveries, and shared resolution requiring case rechecks.
+
+Generate a new versioned output preserving all earlier runs. Run the full suite and verify hashes, graph links, historical repair identity, before/after counts, and unchanged financial states.
+
+Report remaining limitations. Do not modify original interviews, Decisions 001–003, or historical artifacts. Do not commit or push.
+
+---
+
+Step 25 was interrupted while creating operator_delivery/shared_blockers.py. First inspect the current Git status, that file, and any other changes made during this interrupted session. Determine exactly what was completed, partially written, or not started. Preserve all existing work, decisions, historical artifacts, and prior runs. If the file is incomplete, safely continue the already-authorized Decision 003 implementation from the existing state without duplicating work. Then complete the originally requested tests, new versioned output, preservation checks, and before/after verification. Report what was recovered and what remains unfinished. Do not commit or push.
+
+---
+
+Document my authorized Omega Attempt 4 Decision 004: accept an interim operator handoff without claiming financial completion.
+
+Create decisions/decision-004-interim-operator-handoff.md. Preserve Decisions 001–003 unchanged.
+
+Cite exact local assignment, policy, stakeholder interview, decision, and generated-artifact references.
+
+Record the chosen acceptance boundary, alternative of deferring acceptance, rationale, restrictions, unknowns, and measurable acceptance criteria.
+
+Distinguish participant acceptance of an interim milestone from external operator acceptance, assignment completion, independent grading, payment authorization, and financial closure.Assess the latest shared-blockers-v1 report, manifests, snapshot chain, repair register, operator instructions, and test evidence against those criteria.
+
+Identify any gaps or unsupported claims, especially native source availability, financial attribution, review evidence, package definitions, and operational replay.
+
+Documentation and read-only assessment only. Do not modify workflow code, generated artifacts, historical files, or earlier decisions.
+
+Do not commit or push.
+
+Report the document path, supported acceptance criteria, remaining gaps, and verification performed.
+
+---
+
+Perform a targeted operator-handoff portability audit for Omega Attempt 4 using Decision 004 and the latest shared-blockers-v1 output.
+
+First inspect README.md, operator_delivery/README.md, operator_delivery/shared-blockers.md, skills/travel-expense-claim/SKILL.md, requirements, CLI commands, source bindings, and replay verification.
+
+Identify environment-specific paths, missing instructions, undiscoverable Decision 003 outputs, unsafe overwrite examples, and unsupported preflight claims.
+
+Make only narrow documentation and command-example corrections needed for an operator to discover and verify the current interim handoff.
+
+Do not change business logic, financial statuses, repair records, snapshots, decisions, interviews, or historical artifacts.
+
+Test documented commands using a fresh temporary Python environment if feasible, without network access or dependency installation requiring downloads.Distinguish a successful local portability check from independently demonstrated external operator acceptance.
+
+Run targeted verification and report exact files changed, commands tested, passing/failing results, and remaining limitations.
+
+---
+
+Perform a final read-only evidence audit of Omega Attempt 4 against the original Project D submission and captured assignment requirements.
+
+Review Decisions 001–004, the latest shared-blockers-v1 run, source manifests, snapshots, claims.csv, report.md, repair queue, operator Skill, portability documentation, interview provenance, tests, and Git status.
+
+Build a requirement-by-requirement comparison distinguishing verified coverage, partial coverage, missing evidence, and unverified claims.
+
+Compare original submission grade 79.1/100 and 68/86 recognized checkpoints with the new implementation, but do not predict or claim a revised grade.Confirm whether four participant-owned decisions are traceably linked to actual workflow behavior and evidence.
+
+Identify any remaining high-impact correctness or submission risks, including historical documentation bindings, incomplete native Notion access, unresolved financial authority, dependency locking, and reproducibility.
+
+Report exact evidence paths and a prioritized shortlist of only essential remaining actions.
+
+Estimate whether those actions fit the remaining Omega time budget.
+
+Do not edit files, generate new artifacts, commit, push, deploy, or submit.
+
+---
+
+Investigate the verified Omega Attempt 4 business-disposition discrepancy without editing files. Compare C13 and C14 in the original submission, all retained native source revisions and updates, normalization, validation, reconciliation, latest snapshots, and claims.csv. Determine whether withdrawn and rejected are authoritative current dispositions or only historical observations. Trace exactly where the rebuild converts business disposition into the universal held status. Recommend the smallest evidence-backed correction that preserves separate financial readiness and all existing holds. Identify affected schema, reports, tests, and versioned artifacts, plus any uncertainty or source conflict. Do not infer approvals, fabricate dispositions, change code, generate artifacts, commit, or push. Report findings only.
+
+---
+
+Implement the authorized Omega Attempt 4 business-disposition correction, using the Step 30 C13/C14 investigation and Decisions 001–004.
+
+Preserve business disposition independently from financial readiness. C13/r1 must retain its source-supported withdrawal; C14/r1 must retain its current budget-owner rejection. Neither disposition authorizes payment or financial closure.
+
+Make the smallest coherent changes across validation, reconciliation, snapshot projection, CSV reasons, operator report, and case views. Preserve the existing CSV columns and financial held status. Attach exact evidence references and reasons to dispositions.Add targeted regressions for C13/C14, later revisions, conflicting or wrong-role decisions, and unchanged financial holds. Do not infer dispositions from missing evidence.
+
+Generate NEW versioned validation, reconciliation, operator, containment, and shared-blocker artifacts as needed. Preserve all earlier runs, snapshot chains, repair identities/history, source hashes, and Decisions 001–004.
+
+Run the full test suite, standalone verification, hash and predecessor-link checks, and compare before/after financial facts and repair counts. Verify that no claim becomes paid or financially closed.
+
+Report files changed, new artifact paths, tests, corrected dispositions, unresolved limitations, and any failed checks. Do not commit, push, deploy, or submit.
+
+---
+
+Perform Step 32: a read-only Git packaging audit for Omega Attempt 4.
+
+Inspect all tracked and untracked files, Git status, file sizes, .gitignore, Entire capture evidence, and the latest verified artifacts.
+
+Identify exactly what should be included in the final Git commit, what should be excluded, and whether the project can be reproduced from a clean checkout.
+
+Report any missing evidence or submission risks.
+
+Do not modify, stage, commit, push, or submit anything.
+
+---
+
+Perform a narrowly scoped Omega Attempt 4 packaging-portability correction.
+
+Fix artifacts/verifications/omega4-attempt002-business-disposition-v1/verify-preservation.py so it uses repository-relative paths and its packaged baseline rather than hard-coded checkout or /tmp paths.
+
+First inspect all sealed manifests and historical hash bindings. Do not edit any sealed artifact, historical evidence, original interview, or decision record.
+
+If the script is hash-bound, preserve the original and create a separately versioned portable verification script instead.
+
+Add a focused test or isolated temporary-checkout verification proving that the portable script works independently of the original checkout path.
+
+Report exactly what changed, verification results, and any remaining reproducibility limitations.
+
+Do not stage, commit, push, publish, deploy, or submit anything.
+
+---
+
+erform Omega Attempt 4 Step 34: Git staging preparation and review.
+
+Work only in /home/maxg/travel-expense-claim-omega4 on main.
+
+1. Confirm repository identity, current branch, HEAD, Git status, and Entire capture branch. Do not switch branches.
+
+2. Review all candidate files for credentials, tokens, passwords, private keys, personal information, machine-specific paths, oversized files, and unnecessary temporary files. Report sensitive findings without printing secret values.
+
+3. Check .gitignore and Git's effective exclusions. Add only minimal protective ignore rules if necessary. Never ignore or delete required historical artifacts, sealed manifests, source evidence, interviews, decisions, or verification logs.
+
+4. Stage the complete authorized implementation and evidence package, including the Step 33 portable verifier and its tests. Exclude credentials, environments, caches, temporary files, and Entire-managed capture metadata.
+
+5. Inspect the exact staged inventory using git diff --cached, git diff --cached --check, file counts, sizes, and staged hashes. Confirm required source files, tests, Decisions 001–004, interview evidence, provenance, historical runs, latest artifacts, and verification records are included.
+
+6. Check whether staged files match the latest verified working-tree outputs. Identify any missing dependencies, broken relative paths, unexpected changes, sensitive material, or risks to reproducibility.
+
+7. If any sensitive file or significant uncertainty is found, stop before staging that file and report the issue. Do not silently discard required evidence.
+
+8. Report the staged file count, total size, exclusions, sensitive-file findings, staged diff summary, preservation results, Entire capture status, and whether the package is ready for a local commit.
+
+Do not commit, push, publish, deploy, submit, rewrite history, or alter historical evidence.
+
+Leave the staged changes available for my review and wait for explicit authorization before committing.
+
+---
+
+Perform a final READ-ONLY pre-commit audit of the currently staged Omega Attempt 4 package.
+
+Do not change staging or modify any file.
+
+1. Confirm staged files exactly match working-tree bytes.
+2. Check whether Git attributes, filters, or line-ending conversion could alter historical evidence.
+3. Identify any individual Git blobs or repository-hosting limitations that could prevent a normal push.
+4. Classify the 9,963 whitespace findings into preserved evidence versus actionable implementation defects.
+5. Confirm the latest portable verifier, Decisions 001–004, interview, Skill, tests, and sealed artifacts are staged.
+6. Confirm current branch, HEAD, staged inventory, and Entire capture tip.
+7. Give a clear GO / NO-GO recommendation for a LOCAL commit, listing any remaining blockers.
+
+Do not stage, unstage, commit, push, publish, deploy, or submit.
+
+Report findings and wait for authorization.
