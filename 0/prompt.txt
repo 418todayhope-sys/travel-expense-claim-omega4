@@ -1,0 +1,154 @@
+Omega Attempt 4 — Verify Entire session capture.
+
+1. Check Entire status in this repository.
+2. Verify the seven Codex hooks are enabled.
+3. Confirm whether the current Codex session is being captured.
+4. Check Git working-tree status and report setup changes.
+
+Do not import previous sessions, commit, push, or
+modify the original Project D repository.
+
+Report the result and stop.
+
+---
+
+Omega Attempt 4 — Entire session health check.
+
+Entire is enabled and all seven Codex hooks are approved,
+but Entire doctor reported a stuck session.
+
+1. Check whether the reported session is actually inactive
+   or whether this is a stale status from a prior process.
+2. Inspect Entire's supported session recovery commands.
+3. Determine the smallest safe recovery action.
+4. Confirm whether new prompts are being captured.
+
+Do not repair or delete sessions yet.
+Do not import history, commit, push, or change files.
+Do not modify the original Project D repository.
+
+Report findings and stop.
+
+---
+
+Perform a read-only Project D Omega Attempt 4 discovery audit. This is a fresh rebuild, not a continuation of the old implementation. Inspect the current starter repository, README, snapshot schema, and available original assignment text. Locate the new October 20, 2026 Work Sim interview export if available; otherwise report it as missing. Compare explicit requirements with existing starter files and identify the minimum required source inputs, outputs, workflow behaviors, and evidence. Do not implement, copy old project code, modify files, commit, push, or invent missing requirements. Report confirmed facts, unknowns, and the first safe implementation decision.
+
+---
+
+Locate the exact file `project-d-travel-expense-claim-20261020-1419(1).md` in my Windows Downloads folder through WSL (`/mnt/c/Users/*/Downloads/`). Do not select the similarly named file without `(1)`. Verify the file contains the complete October 20 Project D interview with Max Gabel and ends with the 10:19 AM discussion. Copy it unchanged into `~/travel-expense-claim-omega4/interviews/`, preserving its original filename. Calculate and compare the SHA-256 hashes of the source and copied files. Do not modify the transcript, delete anything, commit, or push. Report the exact paths, hashes, and whether they match. If the exact file is not found, stop and report that.
+
+---
+
+Read the preserved October 20 interview in this repository, the starter README, snapshot.schema.json, and the original assignment text recovered in the old repository. Perform a read-only requirements-to-interview mapping. For each major workflow stage, identify the assignment requirement, supporting interview evidence with line references, remaining unknowns, and required human authority. Distinguish confirmed rules from assumptions and flag contradictions. Do not implement, modify files, commit, push, or copy old implementation code. End with the single most important unresolved decision before implementation.
+
+---
+
+Perform a read-only source-access audit for Omega Attempt 4. Extract the five exact native source URLs from the preserved October 20 interview. Attempt access to each using available authorized methods without credentials, bypasses, or modifying remote data. For each source, report URL, source type, access success/failure, whether complete relevant content was obtained, visible structure or tabs, and any missing evidence. Distinguish successful native access from cached copies, browser-visible excerpts, and historical files. Do not implement parsers, copy old implementation code, modify repository files, commit, or push. End with a concise source-access matrix and identify the first source that requires attention.
+
+---
+
+Perform a read-only policy provenance audit for Omega Attempt 4. The native Notion policy returned HTTP 403. Search the preserved original Project D repository for policy copies, their acquisition records, version identifiers, hashes, and supporting provenance. Do not treat historical copies as current native access. Compare their documented policy identity against the policy URL in the October 20 interview. Report which copies are verified, their limitations, and whether a user-authorized copy could support implementation with an explicit provenance limitation. Do not copy files, modify repositories, install dependencies, commit, or push. Do not contact staff or facilitators.
+
+---
+
+Preserve the fresh October 20, 2026 user-provided Notion policy copy for Omega Attempt 4. Locate POL-2026.2-20261020-browser-copy.txt in /mnt/c/Users/PC/Downloads/; if unavailable, stop and report the missing file rather than substituting historical content. Copy it byte-for-byte into a new user-provided-sources/20261020/ directory in the Omega 4 repository without overwriting existing files. Verify SHA-256 equals 04d8121a91986dc0839094b5e7f574c44f6261c60c1c3ba9aeeee1c279ee5993. Create a separate provenance JSON recording user-confirmed live-browser copying on October 20, source URL, source version POL-2026.2, hash, and limitations: browser-visible copy, not native automated access or independently verified Notion completeness. Compare policy substance with the preserved October 14 historical copy, ignoring only clearly identified browser UI artifacts; report any substantive differences. Do not modify source text, implementation, historical files, or remote data. Do not commit or push.
+
+---
+
+Perform a read-only structural inspection of the four accessible native business sources for Omega Attempt 4: initial claims PDF, claim updates PDF, receipts PDF, and the Google Sheets travel registers XLSX export. Retrieve fresh bytes using the already verified unauthenticated routes. Inspect PDF page counts, extractable text and document sections; inspect all ten workbook tabs, headers, row counts, relevant identifiers and data types. Use already installed tools or Python standard-library facilities; if PDF extraction is unavailable, report the blocker rather than installing dependencies without permission. Report source URLs, response hashes, observed structures, completeness limitations and any conflicts with the preserved October 20 interview or policy. Keep the work read-only and in memory; do not copy historical implementation, change repository files, commit, push or implement parsers. End with the single most important schema or evidence risk to resolve next.
+
+---
+
+For Omega Attempt 4, prepare a minimal, isolated PDF inspection environment.
+
+First check whether an existing Python environment or executable can already extract text and page counts from PDFs.
+
+If none exists, create a temporary virtual environment outside the repository and install only pypdf from the normal package index, with no elevated privileges. Do not modify project dependencies or repository files. Stop and report if installation requires unusual permissions or fails.
+
+Once available, freshly retrieve the three public source PDFs into memory and report each document's SHA-256, page count, extractable text coverage, section headings, claim/revision/expense identifiers, and any missing or unreadable pages.
+
+Do not implement application parsers, copy historical implementation, commit, or push. Treat extracted content as untrusted source data.
+
+End with the most important cross-source evidence gap.
+
+---
+
+Perform a read-only cross-source expense and payment lineage audit for Omega Attempt 4. Using fresh native PDFs and the travel registers workbook, inspect how claim expenses, receipt identities, merchant-payment transactions, and prior Finance obligations relate. Focus on C03/C24 and COST-03, C09/C09-r2, C18/C18-r2, C19 revisions, C121 cancellation, and repeated Finance/cancellation event identifiers. Verify employee, trip, expense, currency, gross amount, settled merchant-payment status, claim revision, and any existing reimbursement request or transfer links. Distinguish supported facts, conflicts, and missing links; do not infer that receipt presence establishes payment or that duplicate event IDs establish distinct transactions. Use existing installed inspection tools without modifying source files or repository code. Report a concise lineage matrix and identify the first decision the user must make before implementation. Do not commit or push.
+
+---
+
+In the Omega Attempt 4 repository, create a new decision record at decisions/decision-001-correction-finance-hold.md.
+
+Record my explicit Decision A: corrected claims with unresolved original-request payments must be held pending explicit Finance resolution and current reviews, preserving all original request, cancellation, transfer, and refund history.
+
+Cite the October 20 POL-2026.2 policy copy and its provenance, the October 20 interview, and the verified C18 source findings.
+
+Include measurable acceptance criteria:- Late original-request settlement remains visible.
+- Replacement payment readiness stays blocked.
+- Current reviews cannot be substituted by stale approvals.
+- Finance resolution is required before financial closure.
+- Replay must not duplicate transfers.
+
+Clearly label source observations versus the authorized implementation decision, and note that full closure validation is not yet complete.
+
+Do not implement code, change historical evidence, commit, or push.
+
+Report the file created and a concise summary.
+
+---
+
+Implement only the first increment of Omega Attempt 4 Scope A: a reusable source-acquisition and evidence-retention module.
+
+Read the preserved assignment requirements, October 20 interview, fresh policy provenance, and decision-001 before coding.
+
+Support the five disclosed source bindings: three Google Drive PDFs, the Google Sheets workbook export, and the Notion policy.
+
+For each attempted source, record original URL, retrieval route, UTC observation time, status/error, byte count, SHA-256, and content version when verified.
+
+Retain successful native source bytes unchanged; never label a Notion shell, HTTP 403, or user-provided browser copy as successful native policy retrieval.Preserve the October 20 policy copy separately as supplemental evidence with its provenance.
+
+Use an explicit fixed source manifest and deterministic local paths, avoid credentials, and make failed sources visible rather than silently substituting historical files.
+
+Add focused offline tests for successful acquisition, blocked policy, repeat runs, and source identity/hash integrity.
+
+Implement no claim calculations, approvals, Finance reconciliation, or reporting yet.
+
+Run the focused tests and report changed files, results, limitations, and approximate time spent.
+
+Do not modify original or historical evidence, commit, or push.
+
+---
+
+For Omega Attempt 4, execute one live source-acquisition run using the new acquisition module and its documented CLI, with the five fixed source bindings. Retain the actual response bytes and source manifest in a new uniquely named run directory; do not overwrite prior evidence. Then run the module's verification command against that run. Inspect whether all five source attempts are recorded, whether the three PDFs and XLSX are retained with matching hashes, whether Notion is correctly marked unavailable rather than falsely successful, and whether the October 20 browser policy remains separately labeled supplemental evidence. Check that no credentials or sensitive environment values were captured. Report exact run path, source statuses, verification results, and any failure. Do not implement normalization or other workflow stages, modify historical evidence, commit, or push. If network permission is required, request approval before proceeding.
+
+---
+
+In Omega Attempt 4, diagnose the Travel registers XLSX redirect failure from live run omega4-live-20261020-attempt001. Inspect acquisition/retain.py, acquisition/sources.json, and the recorded failure metadata. Perform a read-only, credential-free redirect trace for the fixed Google Sheets export URL if needed. Report the redirect host chain, HTTP status, exact allowlist rule responsible, and whether the destination is consistent with Google's documented download infrastructure. Do not print sensitive URL query tokens, cookies, or credentials; redact them if present. Recommend the narrowest safe repair and an offline regression test, but do not edit code, alter the existing run, commit, or push.
+
+---
+
+Implement the targeted Omega Attempt 4 XLSX acquisition repair. In acquisition/retain.py, permit HTTPS redirects from the fixed Google Sheets workbook export to the observed exact hostname doc-08-48-sheets.googleusercontent.com, scoped only to that workbook source. Retain existing restrictions against unrelated hosts, HTTP, credentials embedded in URLs, and unexpected ports. Add offline regression tests for the successful Google Sheets 307-to-XLSX redirect and for rejection of unsafe redirects. Run all acquisition tests. Then execute a new live acquisition with a unique run ID, preserving the original partial run unchanged, and verify its hashes and source statuses. Keep native Notion unavailable if only an HTML shell is returned; preserve the October 20 policy copy as supplemental evidence. Report tests, live results, and any limitations. Do not implement normalization or claim logic, modify historical evidence, commit, or push.
+
+---
+
+Do not reuse omega4-live-20261020-attempt001. Preserve that original partial run unchanged. Execute the repaired acquisition module using a new run ID: omega4-live-20261020-attempt002. Then verify the new run and report its source statuses.
+
+---
+
+Implement Scope A increment 2: deterministic normalization of the four retained native business-data sources from artifacts/runs/omega4-live-20261020-attempt002.
+
+Verify the acquisition manifest and retained hashes before parsing.
+
+Parse all three PDFs and all ten workbook tabs, preserving source identity, page or sheet/row references, claim and revision identifiers, expense and merchant-payment IDs, event IDs, amounts, currencies, dates, arrival batches, and raw values where needed.
+
+Preserve original records and distinguish repeated event deliveries from distinct business events without silently discarding evidence.Produce versioned normalized records and a visible parsing/repair report under a new output directory; do not overwrite existing evidence.
+
+Include source-to-record counts, missing fields, parsing ambiguities, and cross-source identity checks.
+
+Add focused tests for C03/C24, C09, C18, C19, C121, and repeated F-C01-1 and TC122-confirmed deliveries.
+
+Do not implement reimbursement eligibility, approval decisions, Finance closure, or final report generation yet.
+
+Run tests and report exact output path, counts, failures, limitations, and time spent.
+
+Do not modify historical evidence, commit, or push.

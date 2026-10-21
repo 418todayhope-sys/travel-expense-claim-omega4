@@ -1,0 +1,61 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M5FKWGY7JJD0WR6DP8ZEKE6E",
+  "strategy": "manual-commit",
+  "branch": "main",
+  "checkpoints_count": 17,
+  "files_touched": [
+    "README.md",
+    "acquisition/README.md",
+    "acquisition/__init__.py",
+    "acquisition/retain.py",
+    "acquisition/sources.json",
+    "artifacts/normalizations/omega4-attempt002-normalization-v1/parsing-report.v1.json",
+    "artifacts/normalizations/omega4-attempt002-normalization-v1/parsing-report.v1.md",
+    "artifacts/normalizations/omega4-attempt002-normalization-v1/records.v1.json",
+    "artifacts/runs/omega4-live-20261020-attempt001/responses/policy.body",
+    "artifacts/runs/omega4-live-20261020-attempt001/source-bindings.json",
+    "artifacts/runs/omega4-live-20261020-attempt001/sources.json",
+    "artifacts/runs/omega4-live-20261020-attempt001/sources/claim-updates.pdf",
+    "artifacts/runs/omega4-live-20261020-attempt001/sources/initial-claims.pdf",
+    "artifacts/runs/omega4-live-20261020-attempt001/sources/receipts.pdf",
+    "artifacts/runs/omega4-live-20261020-attempt001/supplemental/POL-2026.2-20261020-browser-copy.provenance.json",
+    "artifacts/runs/omega4-live-20261020-attempt001/supplemental/POL-2026.2-20261020-browser-copy.txt",
+    "artifacts/runs/omega4-live-20261020-attempt002/responses/policy.body",
+    "artifacts/runs/omega4-live-20261020-attempt002/source-bindings.json",
+    "artifacts/runs/omega4-live-20261020-attempt002/sources.json",
+    "artifacts/runs/omega4-live-20261020-attempt002/sources/claim-updates.pdf",
+    "artifacts/runs/omega4-live-20261020-attempt002/sources/initial-claims.pdf",
+    "artifacts/runs/omega4-live-20261020-attempt002/sources/receipts.pdf",
+    "artifacts/runs/omega4-live-20261020-attempt002/sources/travel-registers.xlsx",
+    "artifacts/runs/omega4-live-20261020-attempt002/supplemental/POL-2026.2-20261020-browser-copy.provenance.json",
+    "artifacts/runs/omega4-live-20261020-attempt002/supplemental/POL-2026.2-20261020-browser-copy.txt",
+    "decisions/decision-001-correction-finance-hold.md",
+    "interviews/project-d-travel-expense-claim-20261020-1419(1).md",
+    "normalization/README.md",
+    "normalization/__init__.py",
+    "normalization/normalize.py",
+    "normalization/requirements.txt",
+    "tests/test_acquisition.py",
+    "tests/test_normalization.py",
+    "user-provided-sources/20261020/POL-2026.2-20261020-browser-copy.provenance.json",
+    "user-provided-sources/20261020/POL-2026.2-20261020-browser-copy.txt"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 245932,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 13302528,
+    "output_tokens": 57306,
+    "api_call_count": 96,
+    "subagent_tokens_complete": true
+  }
+}
